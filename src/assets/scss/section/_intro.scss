@@ -1,0 +1,18 @@
+#intro {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro__div {
+  width: 70%;
+  white-space: pre-line;
+  word-break: keep-all;
+
+  .intro__text {
+    padding: 16px;
+    font-size: 70px;
+    color: white;
+    display: inline-block;
+  }
+}
